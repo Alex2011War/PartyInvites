@@ -1,0 +1,22 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <title>Index</title>
+</head>
+<link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css"/>
+<body>
+<div class="text-center">
+    @ViewBag.Greeting World (from the view)
+    <p><h3>We're going to have an exciting party.</h3><br/>
+        <h4>And you are invited</h4>
+        (To do: sell it better. Add pictures or something.)</p>
+    <a class="btn btn-primary" asp-action="RsvpForm">RsvpNow</a>
+</div>
+</body>
+</html>
